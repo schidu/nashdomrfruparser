@@ -11,7 +11,7 @@ from urllib.parse import urljoin
 from concurrent.futures import ThreadPoolExecutor
 from concurrent.futures import as_completed
 import urllib
-MAX_THREAD_WORKERS = 3
+MAX_THREAD_WORKERS = 4
 INPUT_FILE_PATH  = "..\\data\\input\\ids100.txt"
 DATA_DIR = "..\\data\\output"
 DOCS_DOWNLOAD_ARCHIVED = 'https://xn--80az8a.xn--d1aqf.xn--p1ai/%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D1%8B/api/object/{}/documentation/download?tab=projectDeclarations&tab=permits&tab=projectDocumentation&tab=developerReport'

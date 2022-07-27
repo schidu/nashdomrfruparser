@@ -1,0 +1,3 @@
+bin/*.exe
+bin/*.rar
+bin/__pycache__/**
